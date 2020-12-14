@@ -60,6 +60,6 @@ void loop() {
   // Set the LED light levels.
   analogWrite(redLEDPin, redValue);
   analogWrite(greenLEDPin, greenValue);
-  analogWrite(bluedLEDPin, blueValue);
+  analogWrite(blueLEDPin, blueValue);
   
 }
