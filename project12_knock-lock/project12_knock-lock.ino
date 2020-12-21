@@ -64,7 +64,7 @@ void loop() {
       }
       Serial.print(3 - numberOfKnocks);
       Serial.println(" more knocks to go");
-    }
+    } 
 
     // Unlock
     if(numberOfKnocks >= 3){
